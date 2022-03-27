@@ -2,7 +2,7 @@
   "name": "𝕆𝕤𝕞𝕒𝕟𝕚 ℂ𝕖𝕟𝕥𝕖𝕣",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/dihanofficial/sophiamusic-v6",
+  "repository": "https://github.com/Zeyriye-bot/osmanicenter",
   "stack": "container",
   "buildpacks": [
    {
