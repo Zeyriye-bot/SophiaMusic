@@ -11,7 +11,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""Hi there,👋 {message.from_user.first_name}!
-\nThis is Sophia Music Bot.
+\nThis is 𝕆𝕤𝕞𝕒𝕟𝕚 𝔹𝕠𝕥 ℂ𝕖𝕟𝕥𝕖𝕣.
 I play music on Telegram's Voice Chats.
 \nFo More Help Use Buttons Below:
  """,
@@ -21,17 +21,17 @@ I play music on Telegram's Voice Chats.
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url="https://github.com/dihanofficial/sophiamusic")
+                       "☞︎︎︎ ℂ𝕠𝕞𝕞𝕒𝕟𝕕 ☜︎︎︎", url="https://telegra.ph/Mss-Rosan-03-24")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Updates Channel", url="https://t.me/SophiaUpdates"
+                        "☞︎︎︎ 𝕋𝕖𝕒𝕞 𝕆𝕤𝕞𝕒𝕟𝕚 ☜︎︎︎", url="https://t.me/teamosmani"
                     ),
                     InlineKeyboardButton(
-                        "💻 Support Group", url="https://t.me/SophiaSupport_Official"
+                        "☞︎︎︎ 𝕤𝕦𝕡𝕡𝕠𝕣𝕥 ☜︎︎", url="https://t.me/osmanigroupbot"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Add Me To Your Group ➕", url="https://t.me/SophiaSLBot?startgroup=true"
+                        "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="https://t.me/CenterOsmaniBot?startgroup=true"
                     )]
             ]
         ),
@@ -40,12 +40,12 @@ I play music on Telegram's Voice Chats.
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""*Sophia Music Bot is alive.*""",
+      await message.reply_text("""* Osmani Music Bot is alive.*""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Updates Channel", url="https://t.me/SophiaUpdates")
+                        "💬 Updates Channel", url="https://t.me/osmanibots")
                 ]
             ]
         )
